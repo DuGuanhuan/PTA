@@ -1,11 +1,10 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main(void)
 {
-	int F,C;
-
- scanf("%d",&F);
-
-printf("Celsius = %d", C = 5*(F-32)/9);
- 
-	return 0;
-}
+	int f,c;
+	scanf("%d",&f);
+	c = 5 * ((f - 32) / 9.0);
+	printf("Celsius = %d",c);
+	
+	return 0;	
+} 

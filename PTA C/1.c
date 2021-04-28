@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(void)
 {
-    printf("I'm gonna WIN!\n");
-    printf("I'm gonna WIN!\n");
-    printf("I'm gonna WIN!\n");
-    
-    return 0;
+	int i;
+	for(i = 0;i < 3;i++)
+		printf("I'm gonna WIN!\n");
+		
+	return 0;
 }
